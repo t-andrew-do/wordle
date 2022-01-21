@@ -1,0 +1,10 @@
+name: wordle
+
+dependencies:
+  - jupyter
+  - matplotlib
+  - pandas
+  - pip
+  - python
+  - plotnine
+  - numpy
