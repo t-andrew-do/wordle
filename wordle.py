@@ -23,7 +23,7 @@ class Lexicon:
 
     @property
     def bestGuess(self):
-        if len(self.answers) == 1:
+        if len(self.answers) == 1 or len(self.answers) == 2:
             return(self.answers[0])
         
         best_guess = ''
